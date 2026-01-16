@@ -12,7 +12,7 @@
 ## 📄 Full Project Report
 For the complete analysis, algorithm comparison, and complexity study ($O(n!)$ vs $O(n^2)$), please view the full report below:
 
-### [👉 Click Here to Read the Full Report (PDF)](TSP_G12_report (1))
+https://drive.google.com/file/d/18BW39C0qi9NBWIP6-WRAt6NAc1WzfvCA/view?usp=sharing
 *(Note: Please click the link above to view the detailed documentation)*
 
 ---
