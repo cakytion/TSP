@@ -41,7 +41,14 @@ The program allows users to select provinces, choose an algorithm, and visualize
 ![Program Result](result_screen.png)
 *(Example: Calculating optimal route using Brute Force Algorithm)*
 
-### 🛠️ Key Features 
-* **Graph Representation:** Uses **Adjacency Matrix** and **Adjacency List** to store distances between provinces.
-* **Dynamic Input:** Users can add new provinces and distances directly via the console.
-* **Recursive Permutation:** Implements backtracking to generate all possible routes for Brute Force.
+### 🛠️ Key Features (Code Structure)
+The system uses **Adjacency Matrix** and **Adjacency List** to represent the map and distances between provinces.
+
+```c
+// Sample from: TSP_G12_code (1).c
+struct Graph {
+  int numVertices; // จำนวน vertices ในกราฟ
+  char provinceCodes[MAX_PROVINCES][MAX_CODE_LENGTH]; // รหัสจังหวัด
+  long long adjMatrix[MAX_PROVINCES][MAX_PROVINCES]; // Adjacency Matrix
+  struct node **adjLists; // Adjacency List
+};
